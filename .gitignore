@@ -1,0 +1,30 @@
+# AWS IoT Certificates (sensitive)
+certificates/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Dataset (too large for git)
+data/har_dataset/
+
+# Environment
+.env
+.venv
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results (optional - can be regenerated)
+# results/

@@ -1,0 +1,23 @@
+{
+  "Centralized": {
+    "method": "Centralized Learning",
+    "final_accuracy": 95.45300305395317,
+    "final_loss": 0.12416892361071581,
+    "total_time": 2.876864194869995,
+    "total_communication": 0
+  },
+  "Sync FL": {
+    "method": "Synchronous FL (FedAvg)",
+    "final_accuracy": 33.89888021717,
+    "final_loss": 1.7350829711072033,
+    "total_time": 10.886672258377075,
+    "total_communication": 37441800
+  },
+  "Async FL": {
+    "method": "Asynchronous FL",
+    "final_accuracy": 29.86087546657618,
+    "final_loss": 2.006628728212241,
+    "total_time": 10.879575729370117,
+    "total_communication": 36692964
+  }
+}
