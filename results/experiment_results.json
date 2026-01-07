@@ -1,23 +1,37 @@
 {
+  "ML_Baselines": {
+    "Random Forest": {
+      "accuracy": 92.46691550729555,
+      "time": 2.685105323791504
+    },
+    "SVM (RBF)": {
+      "accuracy": 95.48693586698337,
+      "time": 2.1758506298065186
+    },
+    "Logistic Regression": {
+      "accuracy": 95.48693586698337,
+      "time": 1.4089691638946533
+    }
+  },
   "Centralized": {
     "method": "Centralized Learning",
-    "final_accuracy": 95.45300305395317,
-    "final_loss": 0.12416892361071581,
-    "total_time": 2.876864194869995,
+    "final_accuracy": 96.06379368849677,
+    "final_loss": 0.14290860377252576,
+    "total_time": 30.924158573150635,
     "total_communication": 0
   },
   "Sync FL": {
     "method": "Synchronous FL (FedAvg)",
-    "final_accuracy": 33.89888021717,
-    "final_loss": 1.7350829711072033,
-    "total_time": 10.886672258377075,
-    "total_communication": 37441800
+    "final_accuracy": 94.26535459789616,
+    "final_loss": 0.16779129919831454,
+    "total_time": 63.27566885948181,
+    "total_communication": 205184352
   },
   "Async FL": {
     "method": "Asynchronous FL",
-    "final_accuracy": 29.86087546657618,
-    "final_loss": 2.006628728212241,
-    "total_time": 10.879575729370117,
-    "total_communication": 36692964
+    "final_accuracy": 94.97794367153037,
+    "final_loss": 0.143726081320966,
+    "total_time": 62.87556552886963,
+    "total_communication": 202188960
   }
 }
